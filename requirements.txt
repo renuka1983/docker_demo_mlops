@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+fastapi
+uvicorn
+pydantic
+requests
+pypi-json
+dvc
+mlflow
