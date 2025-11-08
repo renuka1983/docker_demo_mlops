@@ -2,7 +2,7 @@
 
 ### Dr. Renukadevi Navaneethan  
 *Lead Data Scientist | Educator | MLOps Practitioner*  
-📧 renuka.analytics@gmail.com  🌐 [GitHub: renuka1983](https://github.com/renuka1983)
+ 🌐 [GitHub: renuka1983](https://github.com/renuka1983)
 
 ---
 
