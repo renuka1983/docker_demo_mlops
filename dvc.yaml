@@ -15,8 +15,10 @@ stages:
       - data/diabetes_preprocessed.csv
 
   tune:
-    cmd: python models/tune_model.py
+    cmd: python models/model_tune.py
     deps:
       - data/diabetes_preprocessed.csv
     outs:
       - models/log_model.sav
+    metrics:
+      - models/metrics.json

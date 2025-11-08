@@ -3,15 +3,15 @@ stages:
   preprocess:
     cmd: python models/preprocess.py
     deps:
-    - path: data/diabetes.csv
+    - path: feature_store/feature_store.db
       hash: md5
-      md5: f2906818eda8fcfc8f8416557ab1e6df
-      size: 23873
+      md5: 3103ba5004e458b259b572972310501a
+      size: 49152
     outs:
     - path: data/diabetes_preprocessed.csv
       hash: md5
-      md5: 60acca81995dc9744b499005ecfe6f2a
-      size: 23290
+      md5: cf19ef3400fbec8438f37f4964ed898b
+      size: 153037
   train:
     cmd: python models/train.py
     deps:
@@ -24,3 +24,35 @@ stages:
       hash: md5
       md5: 965279ddff510c251899df0a0cc7df56
       size: 971
+  features:
+    cmd: python feature_store/features_pipeline.py
+    deps:
+    - path: data/diabetes.csv
+      hash: md5
+      md5: f2906818eda8fcfc8f8416557ab1e6df
+      size: 23873
+    outs:
+    - path: feature_store/feature_store.db
+      hash: md5
+      md5: 3103ba5004e458b259b572972310501a
+      size: 49152
+    - path: feature_store/features.yaml
+      hash: md5
+      md5: 4da2bee82732033377a8fa80780666a2
+      size: 196
+  tune:
+    cmd: python models/model_tune.py
+    deps:
+    - path: data/diabetes_preprocessed.csv
+      hash: md5
+      md5: cf19ef3400fbec8438f37f4964ed898b
+      size: 153037
+    outs:
+    - path: models/log_model.sav
+      hash: md5
+      md5: b8e07fd606d8c3fdff7ceaffb9c5c43b
+      size: 1015
+    - path: models/metrics.json
+      hash: md5
+      md5: 5bb78485c817f07690f3d741ff26de82
+      size: 84
