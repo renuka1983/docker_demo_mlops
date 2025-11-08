@@ -1,13 +1,21 @@
 stages:
-  preprocess:
-    cmd: python models/preprocess.py
+  features:
+    cmd: python feature_store/feature_pipeline.py
     deps:
       - data/diabetes.csv
     outs:
+      - feature_store/feature_store.db
+      - feature_store/features.yaml
+
+  preprocess:
+    cmd: python models/preprocess.py
+    deps:
+      - feature_store/feature_store.db
+    outs:
       - data/diabetes_preprocessed.csv
-  
-  train:
-    cmd: python models/train.py
+
+  tune:
+    cmd: python models/tune_model.py
     deps:
       - data/diabetes_preprocessed.csv
     outs:
