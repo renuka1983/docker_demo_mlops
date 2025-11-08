@@ -1,0 +1,14 @@
+stages:
+  preprocess:
+    cmd: python models/preprocess.py
+    deps:
+      - data/diabetes.csv
+    outs:
+      - data/diabetes_preprocessed.csv
+  
+  train:
+    cmd: python models/train.py
+    deps:
+      - data/diabetes_preprocessed.csv
+    outs:
+      - models/log_model.sav

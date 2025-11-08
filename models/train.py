@@ -21,7 +21,7 @@ acc = accuracy_score(y, model.predict(X))
 
 with mlflow.start_run():
     mlflow.log_metric("Accuracy",acc)
-    mlflow.sklearn.log_modl(model, "model")
+    mlflow.sklearn.log_model(model, "model")
 
 
 pickle.dump(model, open("models/log_model.sav", 'wb'))

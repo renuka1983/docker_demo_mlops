@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/demo_docker/models/mlruns/236515914128685523/71b63a8260394a229ad1f2a556fd5ae6/artifacts
+end_time: 1761974834116
+entry_point_name: ''
+experiment_id: '236515914128685523'
+lifecycle_stage: active
+run_id: 71b63a8260394a229ad1f2a556fd5ae6
+run_name: fearless-yak-686
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761974829947
+status: 3
+tags: []
+user_id: renusapple

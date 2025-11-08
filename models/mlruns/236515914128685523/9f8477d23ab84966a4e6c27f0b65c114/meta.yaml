@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/demo_docker/models/mlruns/236515914128685523/9f8477d23ab84966a4e6c27f0b65c114/artifacts
+end_time: 1761974781133
+entry_point_name: ''
+experiment_id: '236515914128685523'
+lifecycle_stage: active
+run_id: 9f8477d23ab84966a4e6c27f0b65c114
+run_name: bold-dove-776
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761974781123
+status: 4
+tags: []
+user_id: renusapple
