@@ -1,4 +1,5 @@
 [core]
     remote = localstore
+    autostage = true
 ['remote "localstore"']
-    url = /Users/renusapple/dvc_storage
+    url = /Users/renusapple/dvc_storeage
