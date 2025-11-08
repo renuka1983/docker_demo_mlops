@@ -50,9 +50,9 @@ stages:
     outs:
     - path: models/log_model.sav
       hash: md5
-      md5: b8e07fd606d8c3fdff7ceaffb9c5c43b
+      md5: 6c4717bd43b1164c5dda0b3dffe242ea
       size: 1015
     - path: models/metrics.json
       hash: md5
-      md5: 5bb78485c817f07690f3d741ff26de82
-      size: 84
+      md5: a638c10be1aae04a9dd6f18825077f2d
+      size: 109
