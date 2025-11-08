@@ -1,6 +1,6 @@
 stages:
   features:
-    cmd: python feature_store/feature_pipeline.py
+    cmd: python feature_store/features_pipeline.py
     deps:
       - data/diabetes.csv
     outs:
