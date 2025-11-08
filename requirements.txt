@@ -11,3 +11,6 @@ requests
 pypi-json
 dvc
 mlflow
+sqlite3-binary
+pyyaml
+optuna
