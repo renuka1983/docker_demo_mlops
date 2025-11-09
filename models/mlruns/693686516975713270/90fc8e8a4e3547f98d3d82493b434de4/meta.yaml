@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/90fc8e8a4e3547f98d3d82493b434de4/artifacts
+end_time: 1762575622463
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 90fc8e8a4e3547f98d3d82493b434de4
+run_name: masked-shrimp-735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575622424
+status: 3
+tags: []
+user_id: renusapple

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/9324633a0cf74f6aa0c817b6d6435d17/artifacts
+end_time: 1762575622271
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 9324633a0cf74f6aa0c817b6d6435d17
+run_name: exultant-wren-387
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575622147
+status: 3
+tags: []
+user_id: renusapple

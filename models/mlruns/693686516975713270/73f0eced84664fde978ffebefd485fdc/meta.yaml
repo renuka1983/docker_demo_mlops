@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/73f0eced84664fde978ffebefd485fdc/artifacts
+end_time: 1762575627488
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 73f0eced84664fde978ffebefd485fdc
+run_name: best_model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575622667
+status: 3
+tags: []
+user_id: renusapple

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/821baf209f5e47458e47f25bf2999361/artifacts
+end_time: 1762575622411
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 821baf209f5e47458e47f25bf2999361
+run_name: upbeat-ox-53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575622315
+status: 3
+tags: []
+user_id: renusapple

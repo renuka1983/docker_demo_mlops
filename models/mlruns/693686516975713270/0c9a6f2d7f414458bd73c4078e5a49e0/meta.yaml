@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/0c9a6f2d7f414458bd73c4078e5a49e0/artifacts
+end_time: 1762575621682
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 0c9a6f2d7f414458bd73c4078e5a49e0
+run_name: beautiful-owl-525
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575621660
+status: 3
+tags: []
+user_id: renusapple

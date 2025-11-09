@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/91aebd395dc247f1ab860342c6c5eaa0/artifacts
+end_time: 1762575622649
+entry_point_name: ''
+experiment_id: '693686516975713270'
+lifecycle_stage: active
+run_id: 91aebd395dc247f1ab860342c6c5eaa0
+run_name: unique-sheep-368
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762575622527
+status: 3
+tags: []
+user_id: renusapple

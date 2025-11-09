@@ -1,0 +1,10 @@
+artifact_location: file:///Users/renusapple/docker_demo_mlops/docker_demo_mlops/models/mlruns/693686516975713270/models/m-e183c43bf3e0402a991407a93a0511ce/artifacts
+creation_timestamp: 1762575622762
+experiment_id: '693686516975713270'
+last_updated_timestamp: 1762575627480
+model_id: m-e183c43bf3e0402a991407a93a0511ce
+model_type: null
+name: best_model
+source_run_id: 73f0eced84664fde978ffebefd485fdc
+status: 2
+status_message: null
