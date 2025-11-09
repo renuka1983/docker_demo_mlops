@@ -12,7 +12,7 @@ class Input(BaseModel):
 @app.post("/diabetes_prediction")
 def predict(inp: Input):
     arr = np.array([[inp.Pregnancies, inp.Glucose, inp.BloodPressure,
-                     inp.SkinThickness, inp.Insulin, 
+                     inp.SkinThickness, inp.Insulin,
                      inp.DiabetesPedigreeFunction,inp.BMI_Category, inp.Age_Group]])
     y = model.predict(arr)[0]
     return {"prediction": "Patient is diabetic" if y==1 else "Patient is not diabetic"}

@@ -12,6 +12,7 @@ for col in ["BMI_Category","Age_Group"]:
 
 num_cols = [c for c in df.select_dtypes(include=["int64","float64"]).columns if c!="Outcome"]
 df[num_cols] = StandardScaler().fit_transform(df[num_cols])
+df.drop(['Age','BMI'], axis = 1, inplace = True)
 
 df.to_csv("data/diabetes_preprocessed.csv", index=False)
 print("✅ Preprocessed data saved:", df.shape)
